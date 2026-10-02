@@ -1,0 +1,14 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>eBay connected - RTS Listings</title><link rel="stylesheet" href="/_style.css">
+<h1>eBay approved RTS Listings</h1>
+<p>Copy the code below and paste it back to the assistant within 5 minutes. It works once and then expires.</p>
+<span class="box" id="code">(no code in this address)</span>
+<button id="copy">Copy code</button>
+<p id="note"></p>
+<script>
+var p=new URLSearchParams(location.search),c=p.get("code");
+if(c){document.getElementById("code").textContent=c;}
+document.getElementById("copy").onclick=function(){navigator.clipboard.writeText(c||"").then(function(){document.getElementById("note").textContent="Copied.";});};
+</script>
+<footer>Nothing on this page is stored or sent anywhere. <a href="/privacy.html">Privacy policy</a></footer>
+</html>
